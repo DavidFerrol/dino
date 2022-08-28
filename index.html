@@ -2247,6 +2247,7 @@
         }
 
         .icon {
+            user-select: none;
             -webkit-user-select: none;
         }
 
@@ -2276,6 +2277,7 @@
         }
 
         #help-box-outer {
+            transition: height ease-in 218ms;
             -webkit-transition: height ease-in 218ms;
             overflow: hidden;
         }
@@ -2412,11 +2414,15 @@
         }
 
         #sub-frame-error {
+            align-items: center;
             -webkit-align-items: center;
             background-color: #DDD;
             display: -webkit-flex;
+            flex-flow: column;
             -webkit-flex-flow: column;
+
             height: 100%;
+            justify-content: center;
             -webkit-justify-content: center;
             left: 0;
             position: absolute;
@@ -2582,7 +2588,8 @@
             Chrome offline mode ripped by <a
                href="https://www.twitter.com/thecodepost"
                target="_blank"><strong>@thecodepost</strong></a>.<br /> Press
-            "Space" to jump your Dino and start the game.</div>
+            "Space" to jump your Dino and start the game.
+        </div>
         <div id="main-frame-notchrome" style="display:none; margin-top:50px;">
             Sorry, this game only runs on the Google Chrome! You can download it
             free <a href="https://www.google.com/chrome">here</a></div>
