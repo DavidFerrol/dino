@@ -99,8 +99,7 @@
             /** @const */
             var IS_HIDPI = window.devicePixelRatio > 1;
             /** @const */
-            var IS_IOS =
-                window.navigator.userAgent.indexOf('UIWebViewForStaticFileContent') > -1;
+            var IS_IOS = window.navigator.userAgent.indexOf('UIWebViewForStaticFileContent') > -1;
             /** @const */
             var IS_MOBILE = window.navigator.userAgent.indexOf('Mobi') > -1 || IS_IOS;
             /** @const */
@@ -2676,7 +2675,8 @@
                                  data-href="http://apps.thecodepost.org/trex/trex.html">
                             </div>
                         </td>
-                        <td><a href="https://twitter.com/share"
+                        <td>
+                            <a href="https://twitter.com/share"
                                class="twitter-share-button"
                                data-url="http://apps.thecodepost.org/trex/trex.html"
                                data-text="Cool Hidden T-Rex game"
@@ -2694,10 +2694,6 @@
                 hideClass(".onlyforchrome");
             }
         </script>
-
-
-
-
 </body>
 
 </html>
